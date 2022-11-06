@@ -1,0 +1,25 @@
+<template>
+
+
+    <lightning-card title="lwc create record form" icon-name="custom:custom15">
+      
+        <div class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none">
+            <lightning-layout>
+                <lightning-layout-item padding="around-small">
+                 <lightning-input class="slds-p-around_medium" label="Name" name="Accountname" onchange={namechangehandler}></lightning-input>
+              
+                    <lightning-input class="slds-p-around_medium" label="Phone" name="AccountPhone" onchange={Phonechangehandler}></lightning-input>
+               
+             \
+                  <lightning-button class="slds-m-left_x-small" label="Create Account" variant="Success" onclick={createaccounthandler}></lightning-button>
+                </lightning-layout-item>
+               
+            </lightning-layout>
+        </div>
+  
+    
+
+
+    </lightning-card>
+    
+</template>
